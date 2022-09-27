@@ -1,0 +1,105 @@
+:root{
+    --primery-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+}
+
+body{
+    color:var(--primery-text-color);
+    background-color: var(--primary-white-color);
+}
+ul{
+    list-style: none;
+}
+.text{
+    color: var(--accent-color);
+}
+.text-1{
+    color: #000000;
+}
+.text-2{
+    color: var(--primary-white-color);
+}
+/* site-nav */
+.site-nav{
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .link-1:hover,
+.contacts .link-1:focus,
+.contacts .link:hover,
+.contacts .link:focus,
+.contacts .link-2:hover,
+.contacts .link-2:focus,
+.contacts .link-3:hover,
+.contacts .link-3:focus {
+    color: var(--accent-color);
+}
+.link{
+    color: var(--title-text-color);
+}
+.link-1{
+    color:var(--primary-text-color);
+}
+.link-2{
+    color: #FFFFFF;
+}
+.link-3{
+    color: rgba(255, 255, 255, 0.6);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+/* section */
+.section{
+    background-color: #F5F5F5;
+}
+.section-1{
+    background-color: #F5F4FA;
+}
+/* hero */
+.hero, .footer{
+    background-color: #2F303A;
+}
+.hero-title{
+    color: #FFFFFF;
+}
+
+h2,h3{
+    color:var(--title-text-color);
+}
+.adress{
+    color: #FFFFFF;
+}
+/* Button */
+.button{
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+}
+
+.button.primary{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+.button.secondary{
+    background-color: #F5F4FA;
+    color: var(--title-text-color);
+}
+.button.secondary:hover,
+.button.secondary:focus{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+
+
+
+
+/* цвет основного текста  #757575 */
+/* цвет вторичного текста #212121 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
