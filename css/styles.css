@@ -8,7 +8,17 @@
 body{
     color:var(--primery-text-color);
     background-color: var(--primary-white-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
 }
+.logo{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+        }
 ul{
     list-style: none;
 }
@@ -22,9 +32,25 @@ ul{
     color: var(--primary-white-color);
 }
 /* site-nav */
-.site-nav{
+.site-nav .link{
     color: var(--title-text-color);
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+       
 }
+.contacts .link-1{
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+.contacts .link-2, .link-3{
+    font-size: 14px;
+        line-height: 1.71;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contacts .link-1:hover,
@@ -60,17 +86,52 @@ ul{
 .section-1{
     background-color: #F5F4FA;
 }
+.section-title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+}
+.feature-list .title{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;
+}
+.feature-list .title-1{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+}
+.feature-list .text-3{
+        font-size: 16px;
+        line-height: 1.18;
+}
+.feature-list .title-2{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.feature-list .text-4{
+        font-size: 16px;
+        line-height: 1.87;
+}
 /* hero */
 .hero, .footer{
     background-color: #2F303A;
 }
 .hero-title{
     color: #FFFFFF;
-}
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        }
 
 h2,h3{
     color:var(--title-text-color);
 }
+
 .adress{
     color: #FFFFFF;
 }
@@ -78,11 +139,21 @@ h2,h3{
 .button{
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
+    cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+}
+.feature-list .button.secondary{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
 }
 
 .button.primary{
     background-color: var(--accent-color);
     color: var(--primary-white-color);
+    
 }
 .button.secondary{
     background-color: #F5F4FA;
