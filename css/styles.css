@@ -13,6 +13,12 @@ body{
     font-size: 14px;
     line-height: 1.71;
 }
+h1 {
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
 .logo{
     font-family: Raleway;
     font-weight: 700;
@@ -83,8 +89,14 @@ ul{
 .section{
     background-color: #F5F5F5;
 }
+.section .section-title{
+    color: var(--title-text-color);
+}
 .section-1{
     background-color: #F5F4FA;
+}
+.section-1 .section-title{
+    color: var(--title-text-color);
 }
 .section-title{
         font-weight: 700;
@@ -92,11 +104,13 @@ ul{
         line-height: 1.16;
 }
 .feature-list .title{
+            color: var(--title-text-color);
             font-weight: 700;
             font-size: 14px;
             line-height: 1.14;
 }
 .feature-list .title-1{
+        color: var(--title-text-color);
         font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
@@ -106,6 +120,7 @@ ul{
         line-height: 1.18;
 }
 .feature-list .title-2{
+        color: var(--title-text-color);
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
@@ -128,9 +143,7 @@ ul{
         letter-spacing: 0.06em;
         }
 
-h2,h3{
-    color:var(--title-text-color);
-}
+
 
 .adress{
     color: #FFFFFF;
@@ -164,6 +177,7 @@ h2,h3{
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
+
 
 
 
